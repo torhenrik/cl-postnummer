@@ -6,6 +6,6 @@
                )
   :serial t
   :components ((:file "src/package")
-               (:file "src/postnummer")))
+               (:file "src/cl-postnummer")))
 
 
