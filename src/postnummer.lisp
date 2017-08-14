@@ -1,7 +1,7 @@
 (in-package :postnummer)
 
 (defvar *postnummer-poststed*
-  (with-open-file (in (asdf:system-relative-pathname :postnummer "Postnummerregister_utf8.txt"))
+  (with-open-file (in (asdf:system-relative-pathname :postnummer "data/Postnummerregister_utf8.txt"))
     (let ((hash (make-hash-table)))
       (loop for line = (read-line in nil)
          while line

@@ -5,7 +5,7 @@
   :depends-on (#:cl-ppcre
                )
   :serial t
-  :components ((:file "package")
-               (:file "postnummer")))
+  :components ((:file "src/package")
+               (:file "src/postnummer")))
 
 
