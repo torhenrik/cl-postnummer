@@ -1,4 +1,4 @@
-(asdf:defsystem #:postnummer
+(asdf:defsystem #:cl-postnummer
   :description "Postnummer"
   :author "Tor Henrik Hanken <torhenrik@gmail.com>"
   :license "GPL-2.0"

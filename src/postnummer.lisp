@@ -1,4 +1,4 @@
-(in-package :postnummer)
+(in-package :cl-postnummer)
 
 (defvar *postnummer-poststed*
   (with-open-file (in (asdf:system-relative-pathname :postnummer "data/Postnummerregister_utf8.txt"))
